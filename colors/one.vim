@@ -612,6 +612,7 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   call <sid>X('htmlSpecialTagName', s:hue_5,  '', '')
   call <sid>X('htmlTag',            s:mono_2, '', '')
   call <sid>X('htmlEndTag',         s:mono_2, '', '')
+  call <sid>X('htmlH2',             s:hue_5, '', '')
 
   call <sid>X('MatchTag', s:hue_5, s:syntax_cursor, 'underline,bold')
   " }}}
@@ -696,7 +697,7 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   call <sid>X('markdownCodeBlock',        s:hue_5,   '', '')
   call <sid>X('markdownCodeDelimiter',    s:hue_4,   '', '')
   call <sid>X('markdownHeadingDelimiter', s:hue_5_2, '', '')
-  call <sid>X('markdownH1',               s:hue_5,   '', '')
+  call <sid>X('markdownH1',               s:hue_6,   '', '')
   call <sid>X('markdownH2',               s:hue_5,   '', '')
   call <sid>X('markdownH3',               s:hue_5,   '', '')
   call <sid>X('markdownH3',               s:hue_5,   '', '')
