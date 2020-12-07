@@ -319,10 +319,14 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
     let s:visual_grey  = ['#3e4452', '17']
     let s:pmenu        = ['#333841', '16']
   else
-    let s:mono_1 = ['#191b23', '23']
-    let s:mono_2 = ['#292c37', '60']
-    let s:mono_3 = ['#a0a1a7', '145']
-    let s:mono_4 = ['#c2c2c3', '250']
+    "let s:mono_1 = ['#494b53', '23']
+    "let s:mono_2 = ['#696c77', '60']
+    "let s:mono_3 = ['#a0a1a7', '145']
+    "let s:mono_4 = ['#c2c2c3', '250']
+    let s:mono_1 = ['#000000', '23']
+    let s:mono_2 = ['#000066', '60']
+    let s:mono_3 = ['#660000', '145']
+    let s:mono_4 = ['#006600', '250']
 
     let s:hue_1  = ['#0184bc', '31'] " cyan
     let s:hue_2  = ['#4078f2', '33'] " blue
