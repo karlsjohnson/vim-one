@@ -318,20 +318,20 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
     let s:special_grey = ['#3b4048', '16']
     let s:visual_grey  = ['#3e4452', '17']
     let s:pmenu        = ['#333841', '16']
-  else
+  else     "This is One Light
     "let s:mono_1 = ['#494b53', '23']
     let s:mono_1 = ['#000000', '23']
     "let s:mono_2 = ['#696c77', '60']
     let s:mono_2 = ['#990000', '60']
     "let s:mono_3 = ['#a0a1a7', '145']
-    let s:mono_3 = ['#808080', '145']
+    let s:mono_3 = ['#808080', '145'
     "let s:mono_4 = ['#c2c2c3', '250']
-    let s:mono_4 = ['#446688', '250']
+    let s:mono_4 = ['#6688aa', '250'] "line numbers
 
     let s:hue_1  = ['#0184bc', '31'] " cyan
-    let s:hue_2  = ['#4078f2', '33'] " blue
+    let s:hue_2  = ['#0000aa', '33'] " blue
     let s:hue_3  = ['#a626a4', '127'] " purple
-    let s:hue_4  = ['#50a14f', '71'] " green
+    let s:hue_4  = ['#00aa00', '71'] " green
 
     let s:hue_5   = ['#ff0000', '166'] " red 1
     let s:hue_5_2 = ['#ff0770', '160'] " red 2 - Pink
@@ -349,7 +349,7 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
     let s:vertsplit    = ['#e7e9e1', '188']
     let s:special_grey = ['#d3d3d3', '251']
     "let s:visual_grey  = ['#d0d0d0', '251']
-    let s:visual_grey  = ['#404040', '251']
+    let s:visual_grey  = ['#ffff00', '251']
     let s:pmenu        = ['#dfdfdf', '253']
   endif
 
