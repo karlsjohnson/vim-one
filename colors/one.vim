@@ -319,12 +319,12 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
     let s:visual_grey  = ['#3e4452', '17']
     let s:pmenu        = ['#333841', '16']
   else     "This is One Light
-    "let s:mono_1 = ['#494b53', '23']
+    "Rlet s:mono_1 = ['#494b53', '23']
     let s:mono_1 = ['#000000', '23']
     "let s:mono_2 = ['#696c77', '60']
     let s:mono_2 = ['#990000', '60']
     "let s:mono_3 = ['#a0a1a7', '145']
-    let s:mono_3 = ['#808080', '145'
+    let s:mono_3 = ['#777777', '145']
     "let s:mono_4 = ['#c2c2c3', '250']
     let s:mono_4 = ['#6688aa', '250'] "line numbers
 
