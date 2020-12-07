@@ -614,6 +614,11 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   call <sid>X('htmlEndTag',         s:mono_2, '', '')
   call <sid>X('htmlH1',             s:hue_5, '', 'Bold')
   call <sid>X('htmlH2',             s:hue_5_2, '', 'Bold')
+  call <sid>X('htmlH3',             s:hue_6, '', 'Bold')
+  call <sid>X('htmlH4',             s:hue_6_2, '', 'Bold')
+  call <sid>X('htmlH5',             s:hue_1, '', 'Bold')
+  call <sid>X('htmlBold',             s:hue_3, '', 'Bold')
+  call <sid>X('htmlItalic',             s:hue_3, '', '')
 
   call <sid>X('MatchTag', s:hue_5, s:syntax_cursor, 'underline,bold')
   " }}}
