@@ -329,11 +329,11 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
     let s:hue_3  = ['#a626a4', '127'] " purple
     let s:hue_4  = ['#50a14f', '71'] " green
 
-    let s:hue_5   = ['#e45649', '166'] " red 1
+    let s:hue_5   = ['#ff0000', '166'] " red 1
     let s:hue_5_2 = ['#ca1243', '160'] " red 2
 
-    let s:hue_6   = ['#986801', '94'] " orange 1
-    let s:hue_6_2 = ['#c18401', '136'] " orange 2
+    let s:hue_6   = ['#ff9900', '94'] " orange 1
+    let s:hue_6_2 = ['#ffb251', '136'] " orange 2
 
     let s:syntax_bg     = ['#fafafa', '255']
     let s:syntax_gutter = ['#9e9e9e', '247']
@@ -612,8 +612,8 @@ if has('gui_running') || has('termguicolors') || &t_Co == 88 || &t_Co == 256
   call <sid>X('htmlSpecialTagName', s:hue_5,  '', '')
   call <sid>X('htmlTag',            s:mono_2, '', '')
   call <sid>X('htmlEndTag',         s:mono_2, '', '')
-  call <sid>X('htmlH1',             s:hue_5, '', 'Bold')
-  call <sid>X('htmlH2',             s:hue_5_2, '', 'Bold')
+  call <sid>X('htmlH1',             s:hue_5_2, '', 'Bold')
+  call <sid>X('htmlH2',             s:hue_5, '', 'Bold')
   call <sid>X('htmlH3',             s:hue_6, '', 'Bold')
   call <sid>X('htmlH4',             s:hue_6_2, '', 'Bold')
   call <sid>X('htmlH5',             s:hue_1, '', 'Bold')
